@@ -8,15 +8,17 @@ div {
 .header {
     display: flex;
     justify-content: space-between;
-    margin-top: 5px;
-
+    align-items: flex-start;
+    margin: center
 
 }
 
-.header-links {
+/* }
+div .header-links
+.header .header-links {
     display: flex;
     justify-content: space-around;
-    flex-direction:row;
+    flex-direction:row-reverse;
     align-items: flex-start;
 
-}
+} */
