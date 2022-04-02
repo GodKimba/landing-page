@@ -4,21 +4,29 @@ div {
     margin-bottom: 10px;
     color: black;
   }
-
 .header {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    margin: center
-
+    padding: 1px;
+    margin-left: 150px;
+    margin-right: 150px
 }
 
-/* }
-div .header-links
-.header .header-links {
-    display: flex;
-    justify-content: space-around;
-    flex-direction:row-reverse;
-    align-items: flex-start;
+div .header-links a {
+    padding: 5px
+}
 
-} */
+.main-title {
+    display: flex;
+    align-items:flex-start;
+    margin-left: 150px;
+    margin-right: 500px;
+    flex-direction: column;
+    line-height: 0.5px;
+    position: relative;
+    
+}
+#problematic-p {
+    display: inline-block
+}
