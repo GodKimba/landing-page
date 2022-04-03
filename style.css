@@ -36,3 +36,15 @@
 }
 
 /* End of the first half of the page  */
+
+.second-title h1 {
+    display: flex;
+    justify-content: center
+
+}
+
+.second-title .second-title-subtext {
+    display: flex;
+    justify-content: space-around;
+    width: 800px;
+}
