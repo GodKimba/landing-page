@@ -8,6 +8,7 @@
     margin-top: 5px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 
@@ -19,4 +20,8 @@
 
 .header .header-links a {
     margin: 19px
+}
+
+.second-title {
+    display: flex;
 }
