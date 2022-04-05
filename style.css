@@ -56,9 +56,7 @@
 
 }
 
-.second-title p {
-    display: inline-block;
-    margin-left: 15px;
-    margin-right: 15px;
-    width: 130px;
+#random-title {
+    display: flex;
+    justify-content: center;
 }
