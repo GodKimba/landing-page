@@ -56,7 +56,19 @@
 
 }
 
+.images {
+    flex-grow: 1;
+}
+
+.second-title p {
+    display: inline-block
+}
+
 #random-title {
     display: flex;
     justify-content: center;
+}
+
+.paragraphs {
+    display: inline-block;
 }
