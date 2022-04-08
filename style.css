@@ -18,3 +18,8 @@
     margin-left: 20px;
 }
 
+.main-title-items {
+    display: flex;
+    flex-direction: column;
+}
+
