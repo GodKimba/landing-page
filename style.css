@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 .outer-div {
     margin-right: 50px;
     margin-left: 50px;
