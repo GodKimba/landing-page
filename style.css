@@ -20,6 +20,21 @@
 
 .main-title-items {
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.main-title {
+    flex-direction: column ;
+    align-self: flex-start;
+}
+
+.subtext {
     flex-direction: column;
 }
 
+.img {
+    flex-direction: row;
+    justify-content: flex-end;
+}
