@@ -41,6 +41,9 @@
     flex-direction: column;
 }
 
+/* 
+    Try to use height, bottom, top, right, left. Just like you did in the fighting game, this set the position of the child div relative to the parent div.
+*/
 .img {
     flex-direction: row;
     justify-content: flex-end;
