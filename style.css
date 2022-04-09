@@ -1,3 +1,6 @@
+/* 
+    Just to make sure that the padding won't interefer with the rest of the width of the page
+*/
 * {
     box-sizing: border-box;
 }
