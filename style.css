@@ -27,24 +27,24 @@
 
 .main-title-items {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
     justify-content: space-around;
+    margin-right: 10px;
+    flex-wrap: wrap;
+    margin-top: 40px;
 }
 
 .main-title {
-    flex-direction: column ;
     align-self: flex-start;
+    
 }
 
 .subtext {
-    flex-direction: column;
+    justify-content: flex-start;
 }
 
 /* 
     Try to use height, bottom, top, right, left. Just like you did in the fighting game, this set the position of the child div relative to the parent div.
 */
 .img {
-    flex-direction: row;
-    justify-content: flex-end;
+  
 }
