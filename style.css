@@ -15,32 +15,44 @@
 
 .header .header-links {
     display: flex;
-    justify-content: space-around;
-    
 }
 
 .header .header-links a {
     margin: 19px
 }
 
-.main-title {
-    display: flex;
-    flex-direction: column;
-    width: 500px
+.container {
+    display:flex;
+    flex-direction: row;
+    margin-left: 0
+}
+
+.title {
+    flex: 1 1 auto;
+    align-self: flex-start;
 }
 
 .main-title h1 {
+    flex: 1 1 auto;
     margin-bottom: 5px;
-
+    
 }
 
 .main-title p {
+    flex: 1 1 auto;
     margin-top: 5px;
 }
 
 .main-title button {
+    flex: 1 1 auto;
     width: 123px;
     height: 34px
+}
+
+.image {
+    align-self: center;
+    flex: 1 1 auto;
+    flex-grow: 1
 }
 
 .second-title {
