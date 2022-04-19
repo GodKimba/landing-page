@@ -64,23 +64,22 @@
 
 .second-container {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around
+    justify-content: space-around;
+    align-content: center;
 }
 
-.second-container-images {
-    align-items: center;
+.second-container-paragraphs {
+    margin: 50px;
+    margin-top: 0;
 }
 
-.second-container-images img {
-    margin: 30px
-}
-
-.second-title-subtext {
-    margin-left: 30px;
-    margin-right: 30px;
-    width: 1000px;
+.p-divs {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 25px;
 
 }
-
-=
+        
+.p-divs img{
+    margin-right: 5px;
+}        
