@@ -27,24 +27,71 @@
 
 .main-title-items {
     display: flex;
-    justify-content: space-around;
-    margin-right: 10px;
-    flex-wrap: wrap;
-    margin-top: 40px;
 }
 
-.main-title {
+.header .header-links a {
+    margin: 19px
+}
+
+.container {
+    display:flex;
+    flex-direction: row;
+    margin-left: 0;
+    margin-right: 0
+}
+
+.title {
+    flex: 1 1 auto;
     align-self: flex-start;
+}
+
+.main-title h1 {
+    flex: 1 1 auto;
+    margin-bottom: 5px;
     
 }
 
-.subtext {
-    justify-content: flex-start;
+.main-title p {
+    flex: 1 1 auto;
+    margin-top: 5px;
 }
 
-/* 
-    Try to use height, bottom, top, right, left. Just like you did in the fighting game, this set the position of the child div relative to the parent div.
-*/
-.img {
-  
+.main-title button {
+    flex: 1 1 auto;
+    width: 123px;
+    height: 34px
 }
+
+.image {
+    align-self: center;
+    flex: 1 1 auto;
+    flex-grow: 1
+}
+
+.second-title {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.second-container {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.second-container-paragraphs {
+    margin: 50px;
+    margin-top: 0;
+}
+
+.p-divs {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 25px;
+
+}
+        
+.p-divs img{
+    margin-right: 5px;
+}        
