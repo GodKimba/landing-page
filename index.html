@@ -1,38 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <link rel="stylesheet" href="style.css">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Landing Page</title>
-</head>
-<body>
-    <div class="outer-div">
-        <div class="header-items">
-            <div class="header-items header-logo"><h2>Header Logo</h2></div>
-            <div class="header-links">
-                <a href="">header link one</a> 
-                <a href="">header link two</a>
-                <a href="">header link three</a>
-            </div>
-        </div>
-        <div class="main-title-items">
-            <div class="main-title-items main-title">
-                <h1>This website is awesome</h1>
-                <div class="main-title-items subtext">
-                    <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</p>
-                    <div class="main-title-items first-button">
-                        <button>Sign up</button>
-                </div>
-            </div>
-            <!-- I should separate the title, subtext and button on one div and the image in another-->
-            <div class="main-title-items img">
-                <img src= "https://unsplash.it/400/200"/>
-            </div>
-                </div>
-            </div>
-        </div>
-    </div>  
-</body>
+  </head>
+  <body>
+    <header>
+      <inner-column>
+        <h1>Heading</h1>
+      </inner-column>
+    </header>
+    <main>
+      <section>
+        <inner-column>
+            
+          <graphic-diptych>
+
+            <picture>
+              <img
+                src="https://peprojects.dev/images/landscape.jpg"
+                alt="$todo"
+              />
+            </picture>
+
+            <text-content>
+              <h1>This site is not that awesome</h1>
+
+              <p>
+                Here is a paragraph of text to support the
+                <a href="#">welcome</a> area stuff.
+              </p>
+
+              <a href="#">Button text</a>
+            </text-content>
+            
+          </graphic-diptych>
+        </inner-column>
+      </section>
+
+      <section>
+        <inner-column>
+          <h2>Products</h2>
+        </inner-column>
+      </section>
+
+      <section>
+        <inner-column>
+          <h2>Quote</h2>
+        </inner-column>
+      </section>
+      <section>
+        <inner-column>
+          <h2>Call to action</h2>
+        </inner-column>
+      </section>
+    </main>
+    <footer>
+      <inner-column>
+        <h2>footer</h2>
+      </inner-column>
+    </footer>
+  </body>
 </html>
